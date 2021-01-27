@@ -3690,7 +3690,7 @@ input, select, textarea {
 
 	.card {
 		border-radius: 4px;
-		background-color: transparent;
+		background-color: white;
 		color: #2e2b37;
 		box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
 		transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
@@ -3715,7 +3715,13 @@ input, select, textarea {
 			background-color:#e37b7c;
 		}
 
+	.card ul {
+		margin: 0;
+		padding: 0;
+	}
+
 	.card li {
 		list-style: none;
 		color: #2e2b37;
+		padding: 0;
 	}
